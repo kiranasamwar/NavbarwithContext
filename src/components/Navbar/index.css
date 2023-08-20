@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.website-logo {
+  height: 50px;
+  width: 50px;
+}
+.nav-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 576px) {
+  .nav-card {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .website-logo {
+    height: 30px;
+    width: 30px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .nav-card {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.ul-order-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.list-item {
+  font-family: 'Roboto';
+  padding-right: 10px;
+  font-weight: 500;
+}
+.button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.link-item {
+  color: #1e293b;
+  text-decoration: none;
+}
+.navbar-bg-dark {
+  background-color: #333333;
+}
+
+.navbar-bg-light {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dcdcdc;
+  box-shadow: 0px 0px 0px 1px #dcdcdc;
+}
+
+.list-text-light-theme {
+  color: #171f46;
+}
+
+.list-text-dark-theme {
+  color: #ffffff;
+}
